@@ -12,5 +12,6 @@ describe ('login', () => {
         
         cy.get('.navbar').contains('Matilda').should('exist');
 
+    
     });
 });
